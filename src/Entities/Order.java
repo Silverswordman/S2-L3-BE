@@ -35,4 +35,16 @@ public class Order {
                 .filter(product -> "Baby".equals(product.getCategory()))
                 .collect(Collectors.toList());
     }
+
+    public List<Product> getBoysProducts() {
+        return products.stream()
+                .filter(product -> "Boys".equals(product.getCategory()))
+                .map(product -> {
+                    // Applica lo sconto del 10%
+                    double discountedPrice = product.getPrice() * 0.9;
+                    // Crea un nuovo oggetto Product con il prezzo scontato
+                    return new Product(product.getId(), product.getName(), product.getCategory(), discountedPrice);
+                })
+                .collect(Collectors.toList());
+    }
 }
