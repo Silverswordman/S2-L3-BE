@@ -1,7 +1,9 @@
 
-0
-java:S1220""Move this file to a named package.
-@
-java:S3457"%String contains no format specifiers.(Šª„ıÿÿÿÿ
-E	java:S106"+Replace this use of System.out by a logger.(Šª„ıÿÿÿÿ
-E	java:S106"+Replace this use of System.out by a logger.(Ğö¶üÿÿÿÿ
+h
+java:S1192"FDefine a constant instead of duplicating this literal "Books" 3 times.(Çùš¶ùÿÿÿÿ8´ğ¨üÃ1
+7
+java:S1220""Move this file to a named package.8ö´œüÃ1
+L	java:S106"+Replace this use of System.out by a logger.(†ë©±øÿÿÿÿ8‹µœüÃ1
+L	java:S106"+Replace this use of System.out by a logger.(‘à‰ıÿÿÿÿ8µœüÃ1
+G	java:S106 "+Replace this use of System.out by a logger.(†‰ƒ8µœüÃ1
+F	java:S106!"+Replace this use of System.out by a logger.(ºÏ58µœüÃ1
